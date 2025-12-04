@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A stunning view of a tropical beach from a balcony.",
+      "imageUrl": "https://images.unsplash.com/photo-1586500036706-41963de24d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cm9waWNhbCUyMGJlYWNofGVufDB8fHx8MTc2NDg2NjI3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tropical beach"
+    },
+    {
+      "id": "offer-beach",
+      "description": "A beautiful beach in the Maldives with white sand and turquoise water.",
+      "imageUrl": "https://images.unsplash.com/photo-1611561937862-9d0527d25f63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZGl2ZXMlMjBiZWFjaHxlbnwwfHx8fDE3NjQ4ODY1MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maldives beach"
+    },
+    {
+      "id": "offer-adventure",
+      "description": "A person hiking in a vast mountain range.",
+      "imageUrl": "https://images.unsplash.com/photo-1547203928-d8c7cc83e56f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMGhpa2luZ3xlbnwwfHx8fDE3NjQ4NjMwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain hiking"
+    },
+    {
+      "id": "offer-city",
+      "description": "A charming street in Paris with the Eiffel Tower in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1558900493-3b6cc10d7aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXJpcyUyMHN0cmVldHxlbnwwfHx8fDE3NjQ3ODI3MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "paris street"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "A portrait of a happy family smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMGZhbWlseXxlbnwwfHx8fDE3NjQ4ODk2NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy family"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "A portrait of a smiling woman in her 30s.",
+      "imageUrl": "https://images.unsplash.com/photo-1618938700817-fe48bd93f20b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY0ODM4MTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A happy couple on vacation.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1576636215888-539d692c4136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3VwbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4ODEwMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple portrait"
+    },
+    {
+      "id": "service-process",
+      "description": "A world map with pins on it, signifying travel planning.",
+      "imageUrl": "https://images.unsplash.com/photo-1723306744533-bed5a4f696dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29ybGQlMjBtYXB8ZW58MHx8fHwxNzY0ODg5NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "world map"
+    },
+    {
+      "id": "contact-calendar",
+      "description": "A clean and modern office desk setup with a laptop and a calendar.",
+      "imageUrl": "https://images.unsplash.com/photo-1558478551-1a378f63328e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvZmZpY2UlMjBkZXNrfGVufDB8fHx8MTc2NDgyNzEyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office desk"
+    },
+    {
+      "id": "offer-austria-mountains",
+      "description": "A stunning view of the Austrian alps in summer.",
+      "imageUrl": "https://images.unsplash.com/photo-1709489787912-00e3998f8407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdXN0cmlhbiUyMGFscHN8ZW58MHx8fHwxNzY0ODg5NjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "austrian alps"
+    },
+    {
+      "id": "offer-greece-beach",
+      "description": "Iconic white buildings and blue domes in Santorini, Greece.",
+      "imageUrl": "https://images.unsplash.com/photo-1533627634236-4d7ae55ec7b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxncmVlY2UlMjBzYW50b3Jpbml8ZW58MHx8fHwxNzY0ODg5NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "greece santorini"
+    },
+    {
+      "id": "offer-newyork-city",
+      "description": "The skyline of New York City at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZXclMjB5b3JrfGVufDB8fHx8MTc2NDgzNDQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "new york"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "A young man backpacking.",
+      "imageUrl": "https://images.unsplash.com/photo-1546207438-3f0b56238817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYWNrcGFja2VyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODg5NjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "backpacker portrait"
+    }
+  ]
 }
