@@ -56,7 +56,6 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <Button asChild size="lg" className="w-full">
-                    {/* Replace with your actual scheduling link */}
                     <Link
                       href="https://calendly.com"
                       target="_blank"
@@ -71,7 +70,7 @@ export default function ContactPage() {
                       <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />
                       <div>
                         <h4 className="font-semibold">Telefon</h4>
-                        <p className="text-foreground/70">+49 123 456789</p>
+                        <p className="text-foreground/70">01772988022</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -79,7 +78,7 @@ export default function ContactPage() {
                       <div>
                         <h4 className="font-semibold">E-Mail</h4>
                         <p className="text-foreground/70">
-                          kontakt@easyvoyage.de
+                          frederik.ernst27@gmail.com
                         </p>
                       </div>
                     </div>

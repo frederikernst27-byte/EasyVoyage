@@ -50,15 +50,41 @@ export function ContactForm() {
   } = form;
 
   async function onSubmit(values: ContactFormData) {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log(values);
-    toast({
-      title: 'Anfrage gesendet!',
-      description:
-        'Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze bei Ihnen melden.',
-    });
-    form.reset();
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/frederik.ernst27@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          _subject: 'Neue EasyVoyage Kontaktanfrage',
+          _template: 'table',
+          name: values.name,
+          email: values.email,
+          budget: values.budget ?? 'nicht angegeben',
+          message: values.message,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('FormSubmit konnte die Anfrage nicht verarbeiten.');
+      }
+
+      toast({
+        title: 'Anfrage gesendet!',
+        description:
+          'Vielen Dank für Ihre Nachricht. Wir melden uns schnellstmöglich bei Ihnen.',
+      });
+      form.reset();
+    } catch {
+      toast({
+        variant: 'destructive',
+        title: 'Senden fehlgeschlagen',
+        description:
+          'Die Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an frederik.ernst27@gmail.com.',
+      });
+    }
   }
 
   return (
@@ -68,7 +94,7 @@ export function ContactForm() {
           Schreiben Sie uns eine E-Mail
         </CardTitle>
         <CardDescription>
-          Füllen Sie das Formular aus, um Ihre Reiseanfrage zu starten.
+          Füllen Sie das Formular aus, damit wir Ihnen ein passendes Angebot senden können.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -92,7 +118,7 @@ export function ContactForm() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>E-Mail Adresse</FormLabel>
+                  <FormLabel>E-Mail-Adresse</FormLabel>
                   <FormControl>
                     <Input placeholder="max@example.com" {...field} />
                   </FormControl>

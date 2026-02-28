@@ -16,6 +16,10 @@ export function Footer() {
             Travel Made Simple. Finden Sie passende Flüge und Urlaubsangebote –
             abgestimmt auf Ihr Budget und Ihre Wünsche.
           </p>
+          <div className="space-y-1 text-sm text-foreground/70">
+            <p>E-Mail: frederik.ernst27@gmail.com</p>
+            <p>Telefon: 01772988022</p>
+          </div>
         </div>
         <div className="grid grid-cols-2 gap-8 md:col-span-3 md:grid-cols-3">
           <div>
