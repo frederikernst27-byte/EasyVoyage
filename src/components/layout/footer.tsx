@@ -19,6 +19,17 @@ export function Footer() {
           <div className="space-y-1 text-sm text-foreground/70">
             <p>E-Mail: frederik.ernst27@gmail.com</p>
             <p>Telefon: 01772988022</p>
+            <p>
+              Instagram:{' '}
+              <a
+                href="https://www.instagram.com/easy_voyage_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline"
+              >
+                @easy_voyage_
+              </a>
+            </p>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-8 md:col-span-3 md:grid-cols-3">
