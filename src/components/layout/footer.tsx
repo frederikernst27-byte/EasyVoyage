@@ -13,7 +13,8 @@ export function Footer() {
             </span>
           </Link>
           <p className="text-sm text-foreground/60">
-            Travel Made Simple. Your dream vacation is just a click away.
+            Travel Made Simple. Finden Sie passende Flüge und Urlaubsangebote –
+            abgestimmt auf Ihr Budget und Ihre Wünsche.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 md:col-span-3 md:grid-cols-3">

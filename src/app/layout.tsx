@@ -5,9 +5,9 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'EasyVoyage - Travel Made Simple',
+  title: 'EasyVoyage – Travel Made Simple',
   description:
-    'Your personal online travel agency for the best flights and vacation deals.',
+    'Ein Online-Reisebüro, das Reisenden hilft, die besten Flüge und Urlaubsangebote zu finden – individuell abgestimmt auf Budget und Bedürfnisse.',
 };
 
 export default function RootLayout({
