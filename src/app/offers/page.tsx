@@ -78,6 +78,8 @@ export default function OffersPage() {
             <p className="mx-auto mt-4 max-w-3xl text-lg text-foreground/80">
               Entdecken Sie unsere sorgfältig zusammengestellten Reisen. Jedes
               Angebot ist ein Vorschlag, den wir gerne an Ihre Wünsche anpassen.
+              Durch unsere exklusiven Kontakte zu Hotels weltweit können wir
+              häufig besonders attraktive Preise anbieten.
             </p>
           </div>
 

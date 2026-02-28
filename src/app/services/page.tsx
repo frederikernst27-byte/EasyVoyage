@@ -88,8 +88,8 @@ export default function ServicesPage() {
               Ihre exklusiven Vorteile
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-lg text-foreground/80">
-              Profitieren Sie von unserem einzigartigen Service und unseren
-              direkten Kontakten.
+              Profitieren Sie von unserem einzigartigen Service und unserem
+              weltweiten Netzwerk aus exklusiven Hotelkontakten.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-3">
@@ -102,8 +102,9 @@ export default function ServicesPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground/70">
-                  Durch unsere direkten Beziehungen zu Hotels sichern wir Ihnen
-                  Preise, die Sie online nicht finden.
+                  Dank exklusiver Kontakte zu Hotels in vielen Ländern erhalten
+                  Sie über uns häufig Konditionen, die online so nicht verfügbar
+                  sind.
                 </p>
               </CardContent>
             </Card>

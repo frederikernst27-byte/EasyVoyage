@@ -74,7 +74,9 @@ export default function Home() {
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-lg md:text-xl">
             Wir finden für Sie passende Reisen – abgestimmt auf Budget,
-            Bedürfnisse und Reisestil. Weniger Suchen, bessere Entscheidungen.
+            Bedürfnisse und Reisestil. Dank unseres internationalen Netzwerks
+            mit exklusiven Hotelkontakten sichern wir häufig besonders starke
+            Konditionen.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg" asChild>
@@ -159,6 +161,10 @@ export default function Home() {
                 <p>✓ Sie erhalten kuratierte Optionen statt 1000 Tabs.</p>
                 <p>✓ Sie haben einen Ansprechpartner für Rückfragen.</p>
                 <p>✓ Sie bekommen eine Planung, die zu Ihrem Budget passt.</p>
+                <p>
+                  ✓ Über unsere weltweiten Hotelpartner können wir in vielen
+                  Fällen bessere Preise für Sie verhandeln.
+                </p>
               </CardContent>
             </Card>
           </div>
